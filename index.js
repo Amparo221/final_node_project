@@ -3,9 +3,6 @@ import { productRouter } from "./routes/productRoutes.js";
 import { connectDB } from "./config/connectDB.js";
 import mongoose from "mongoose";
 import authRoutes from "./routes/authRoutes.js";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 const PORT = process.env.PORT;
 
